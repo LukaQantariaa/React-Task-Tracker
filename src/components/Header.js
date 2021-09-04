@@ -15,7 +15,7 @@ export const Header = (props) => {
                 lineHeight: 1,
                 fontWeight: "bolder",
                 cursor: "not-allowed"
-            }}>Task - {props.title}</h1>
+            }}>{props.title}</h1>
             <Button color={props.showAddTask ? "green" : "red"} text={props.showAddTask? "add" : "Close"} onClick={onButtonClick}/>
         </header>
     )

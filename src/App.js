@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="container">
       <Header 
-        title="header string title" 
+        title="Task Tracker" 
         onAdd={() => setShowAddTask(!showAddTask)}
         showAddTask={!showAddTask}
       />
@@ -58,7 +58,7 @@ function App() {
           onDelete={deleteTask}
           onToogle={toogleReminder}
         />
-      ) : ("No taks to show") }
+      ) : ("No tasks to show") }
     </div>
   );
 }
